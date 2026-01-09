@@ -1,0 +1,13 @@
+Total Carbon = SUM(fact_carbon_emissions[emissions_kgco2e])
+
+Scope3 % =
+DIVIDE(
+    CALCULATE([Total Carbon], fact_carbon_emissions[lifecycle_stage] = "Materials"),
+    [Total Carbon]
+)
+
+Carbon Reduction % =
+DIVIDE(
+    [Baseline Carbon] - [Optimized Carbon],
+    [Baseline Carbon]
+)
