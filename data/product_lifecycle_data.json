@@ -1,0 +1,30 @@
+{
+  "product_id": "PN-500-22-X",
+  "product_name": "Eco-Drive Housing Unit",
+  "materials": [
+    {
+      "material_id": "MAT-ALU",
+      "name": "Recycled Aluminum 6061",
+      "supplier": "Hydro Circal",
+      "mass_kg": 2.5,
+      "emission_factor": 2.8,
+      "cost_per_kg": 3.4,
+      "recycled_percent": 75,
+      "certified": true
+    },
+    {
+      "material_id": "MAT-ABS",
+      "name": "ABS Plastic (Virgin)",
+      "supplier": "Global Plastics Inc",
+      "mass_kg": 0.3,
+      "emission_factor": 4.5,
+      "cost_per_kg": 2.1,
+      "recycled_percent": 0,
+      "certified": false
+    }
+  ],
+  "manufacturing_energy_kwh": 20.5,
+  "distribution_emissions": 1.1,
+  "distribution_cost": 0.9,
+  "end_of_life_emissions": 1.1
+}
