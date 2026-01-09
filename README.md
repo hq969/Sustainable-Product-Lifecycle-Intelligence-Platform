@@ -293,5 +293,4 @@ This project is intended for **educational, research, and professional portfolio
 
 ---
 
-Just tell me which one.
-```
+
